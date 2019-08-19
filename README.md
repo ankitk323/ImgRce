@@ -1,5 +1,5 @@
 ## ImgRce
-Image Tragick Exploit Tool
+Image Tragick Exploit Tool using Burp Collaborator.
 
 Author: Ankit Singh
 
@@ -17,3 +17,6 @@ ImgRce is for Image Tragick Exploit using Burp Collaborator. ImgRce Create the I
 
 ## Usage:
 ![use](https://user-images.githubusercontent.com/29841053/63261518-54d0bd00-c2a1-11e9-85f3-12fc99514a35.png)
+
+## Response:
+![exploit](https://user-images.githubusercontent.com/29841053/63261855-1b4c8180-c2a2-11e9-96a9-5b9fbce3193c.png)
