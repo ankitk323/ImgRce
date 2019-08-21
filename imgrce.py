@@ -3,8 +3,6 @@
 #!Author: Ankit Singh
 
 import os
-from termcolor import colored
-
 name = """
 
   ___ __  __  ____ ____   ____ _____ 
