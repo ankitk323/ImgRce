@@ -24,7 +24,7 @@ pop graphic-context
 """%(Collaborator)
 
 def check():
-    with open("imgrce1.png","w") as img:
+    with open("imgrce.png","w") as img:
         print("-"*20)
         print("Exploit Created!.. visit the Collaborator")
         print("-"*20)
@@ -40,7 +40,7 @@ def check():
             print("[*] Please select yes or no.")
 
 def system_file():
-    with open("img.png","w") as img:
+    with open("imgrce.png","w") as img:
         print("-"*20)
         print("Exploit Created!.. visit the Collaborator")
         print("-"*20)
