@@ -7,10 +7,10 @@ Author: Ankit Singh
 This tool is for educational purpose and penetration testing. i am not responsible for any damage.
 
 ## Compatibility:
-Windows , Linux or any device running python 2.7
+Windows , Linux or any device running python 
 
 ## Requirements:
-Python 2.7
+Python 
 
 ## Description:
 ImgRce is for Image Tragick Exploit using Burp Collaborator. ImgRce Create the Image file you just upload the image file on website. you will get the response in your burp Collaborator.
